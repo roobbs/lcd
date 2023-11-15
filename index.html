@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LCD</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./lcd.js" defer></script>
+  </head>
+  <body>
+    <header>LCD</header>
+    <main>
+      <form action="" class="form">
+        <div class="form-row first">
+          <label for="numInput">Insert a Number</label>
+          <input type="number" id="numInput" min="0" required />
+        </div>
+        <div class="form-row second">
+          <label for="height">Insert Height</label>
+          <input
+            type="number"
+            id="height"
+            min="1"
+            required
+            placeholder="Min 1"
+          />
+          <label for="width">Insert Width</label>
+          <input
+            type="number"
+            id="width"
+            min="1"
+            required
+            placeholder="Min 1"
+          />
+        </div>
+        <button>Convert</button>
+      </form>
+      <div class="show"><pre>HI</pre></div>
+    </main>
+  </body>
+</html>

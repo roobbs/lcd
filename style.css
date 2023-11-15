@@ -1,0 +1,70 @@
+body {
+  height: 100vh;
+  font-family: monospace;
+  font-size: 20px;
+}
+header {
+  text-align: center;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  color: green;
+}
+main {
+  padding: 2rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.form {
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid grey;
+  text-align: center;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.first input {
+  height: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.second input {
+  width: 150px;
+}
+button {
+  grid-column: span 2;
+  margin: 0rem 10rem;
+  border-radius: 6px;
+  border: 2px solid black;
+  font-weight: 600;
+}
+button:hover {
+  background-color: grey;
+  color: white;
+}
+.show {
+  border: 2px solid black;
+  border-radius: 15px;
+  flex: 1;
+  padding: 2rem;
+  color: green;
+  font-weight: 900;
+}
