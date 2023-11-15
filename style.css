@@ -68,3 +68,21 @@ button:hover {
   color: green;
   font-weight: 900;
 }
+@media screen and (max-width: 600px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form .first {
+    display: flex;
+    flex-direction: column;
+  }
+  .form .second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second input {
+    width: auto;
+  }
+}
